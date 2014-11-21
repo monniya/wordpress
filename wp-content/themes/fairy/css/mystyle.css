@@ -1155,14 +1155,20 @@ font-family: "microsoft yahei";
     }
     .post-meta .author {
         color: #959595;
-        border-bottom: 1px dotted #e5e5e5;
+/**        border-bottom: 1px dotted #e5e5e5; **/
         padding: 5px 0;
+    }
+    .post-meta .vcard a {
+	    margin-left: 0px;
+    }
+    .post-meta .posted-on {
+	    margin-left: 10px;
     }
     .post-meta .author a {
         color: #d73300;
     }
     .post-meta .author a:hover {
-        color: #e38473;
+        color: #C7060E;
     }
     .post-meta .date, .post-meta .tags, .post-meta .comments {
         color: #959595;
