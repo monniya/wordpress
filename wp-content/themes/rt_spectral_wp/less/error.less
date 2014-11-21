@@ -1,0 +1,67 @@
+/**
+ * @version   1.0 February 18, 2014
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+@import "variables.less";
+@import "/jui/less/mixins.less";
+@import "mixins/index.less";
+
+.rt-error-logo {
+	padding: 50px 0;
+	position: relative;
+	z-index: 200;
+	#rt-logo {
+		margin: 0 auto;
+	}	
+}
+.rt-error-code {
+	display: inline-block;
+	border-radius: 10px;
+	color: @white;
+	border: 1px solid fadeout(@dark-grey, 70%);
+	#gradient > .vertical(fadeout(@dark-grey, 60%), fadeout(@dark-grey, 80%));
+	box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.5);	
+	&.rt-block {
+		padding: 50px 80px;
+	}
+}
+.rt-error-title {
+	font-size: 10em !important;
+	line-height: 0.7em;
+	margin-bottom: 20px;
+}
+.rt-error-msg {
+    font-family: Georgia;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.rt-error-details {
+	ul {
+		list-style: none;
+	}
+}
+.rt-error-home.readon {
+	font-size: 1.5em;
+	margin: 35px auto;
+	padding: 20px 30px;
+}
+
+// Error MediaQueries
+
+// Mobile Modes
+@media (max-width: 767px) {
+	body.layout-mode-responsive {
+		.rt-error-code.rt-block {
+			padding: 25px 50px !important;
+		}
+		.rt-error-title {
+			font-size: 7em !important;
+		}	
+		.rt-error-msg {
+		    font-size: 1em;
+		}	
+	}
+}	

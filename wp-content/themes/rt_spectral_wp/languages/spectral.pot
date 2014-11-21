@@ -1,0 +1,1181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Spectral\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jakub Baran <jakub@rockettheme.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+msgid "TEMPLATE_NAME_SETTINGS"
+msgstr "Spectral Theme Settings"
+
+# ------------------- ADMIN ------------------- #
+msgid "JNONE"
+msgstr "None"
+
+msgid "NONE_SELECTED"
+msgstr "- None Selected -"
+
+msgid "USE_DEFAULT"
+msgstr "- Use Default -"
+
+msgid "BLOG_CATEGORY"
+msgstr "Blog Category"
+
+msgid "BLOG_CATEGORY_DESC"
+msgstr "Include or exclude category ID's for the Blog query."
+
+msgid "POSTS_DISPLAY"
+msgstr "Posts Display"
+
+msgid "POSTS_DISPLAY_DESC"
+msgstr "Set number of posts to display."
+
+msgid "LEADING_POSTS"
+msgstr "Leading Posts"
+
+msgid "LEADING_POSTS_DESC"
+msgstr "Number of Leading Posts to display."
+
+msgid "INTRO_POSTS"
+msgstr "Intro Posts"
+
+msgid "INTRO_POSTS_DESC"
+msgstr "Number of Intro Posts to display."
+
+msgid "COLUMNS"
+msgstr "Columns"
+
+msgid "COLUMNS_DESC"
+msgstr "Number of columns to display Intro Posts in."
+
+msgid "QUERY"
+msgstr "Query"
+
+msgid "QUERY_DESC"
+msgstr "Blog view query settings."
+
+msgid "QUERY_TYPE"
+msgstr "Query Type"
+
+msgid "QUERY_TYPE_DESC"
+msgstr "Set what type of content should be displayed on the Blog view."
+
+msgid "ANY"
+msgstr "Any"
+
+msgid "ATTACHMENT"
+msgstr "Attachment"
+
+msgid "PAGE"
+msgstr "Page"
+
+msgid "POST"
+msgstr "Post"
+
+msgid "REVISION"
+msgstr "Revision"
+
+msgid "ORDER"
+msgstr "Order"
+
+msgid "ORDER_DESC"
+msgstr "Change in what order should the posts get displayed."
+
+msgid "AUTHOR"
+msgstr "Author"
+
+msgid "COMMENT_COUNT"
+msgstr "Comment Count"
+
+msgid "DATE"
+msgstr "Date"
+
+msgid "TITLE"
+msgstr "Title"
+
+msgid "MODIFIED"
+msgstr "Modified"
+
+msgid "NAME"
+msgstr "Name"
+
+msgid "None"
+msgstr "NONE"
+
+msgid "PARENT"
+msgstr "Parent"
+
+msgid "RANDOM"
+msgstr "Random"
+
+msgid "CUSTOM_QUERY"
+msgstr "Custom Query"
+
+msgid "CUSTOM_QUERY_DESC"
+msgstr ""
+"Create your own custom query by adding any WP_Query compatible arguments."
+
+msgid "CONTENT_TYPE"
+msgstr "Content Type"
+
+msgid "CONTENT_TYPE_DESC"
+msgstr "Choose between posts content and excerpt."
+
+msgid "CONTENT"
+msgstr "Content"
+
+msgid "EXCERPT"
+msgstr "Excerpt"
+
+msgid "PAGE_HEADING"
+msgstr "Page Heading"
+
+msgid "PAGE_HEADING_DESC"
+msgstr "Shows the page heading."
+
+msgid "ENABLED"
+msgstr "Enabled"
+
+msgid "DISABLED"
+msgstr "Disabled"
+
+msgid "CUSTOM_HEADING"
+msgstr "Custom Heading"
+
+msgid "CUSTOM_HEADING_DESC"
+msgstr "Type in your own custom heading text."
+
+msgid "SHOW_POST_TITLES"
+msgstr "Show Post Titles"
+
+msgid "SHOW_POST_TITLES_DESC"
+msgstr "Shows individual Post titles."
+
+msgid "LINK"
+msgstr "Link"
+
+msgid "LINK_DESC"
+msgstr "Adds a link to the post."
+
+msgid "AUTHOR_META"
+msgstr "Author Meta"
+
+msgid "AUTHOR_META_DESC"
+msgstr "Shows the author of the post."
+
+msgid "PREFIX"
+msgstr "Prefix"
+
+msgid "PREFIX_DESC"
+msgstr "Add your own custom prefix text."
+
+msgid "DATE_META"
+msgstr "Date Meta"
+
+msgid "DATE_META_DESC"
+msgstr "Shows the creation date of the post."
+
+msgid "FORMAT"
+msgstr "Format"
+
+msgid "FORMAT_DESC"
+msgstr "Set the date format using the PHP's date format."
+
+msgid "MODIFIED_DATE_META"
+msgstr "Modified Date Meta"
+
+msgid "MODIFIED_DATE_META_DESC"
+msgstr "Shows the last modification date of the post."
+
+msgid "COMMENTS_META_DATA"
+msgstr "Comments Meta Data"
+
+msgid "COMMENTS_META_DATA_DESC"
+msgstr "Shows the number of comments in a post."
+
+msgid "SHOW_POST_CATEGORY"
+msgstr "Show Post Category"
+
+msgid "SHOW_POST_CATEGORY_DESC"
+msgstr "Show the first category that this post is assigned to."
+
+msgid "SHOW_POST_PARENT_CATEGORY"
+msgstr "Show Post Parent Category"
+
+msgid "SHOW_POST_PARENT_CATEGORY_DESC"
+msgstr ""
+"Show the parent category of the category that this post is assigned to."
+
+msgid "READ_MORE"
+msgstr "Read More"
+
+msgid "READ_MORE_DESC"
+msgstr "Configure how the Read More button should behave."
+
+msgid "LABEL"
+msgstr "Label"
+
+msgid "DISPLAY"
+msgstr "Display"
+
+msgid "DISPLAY_DESC"
+msgstr "Set when Read More button should appear."
+
+msgid "AUTO"
+msgstr "Auto"
+
+msgid "ALWAYS"
+msgstr "Always"
+
+msgid "NEVER"
+msgstr "Never"
+
+msgid "PAGE_VIEW"
+msgstr "Page View"
+
+msgid "SHOW_TITLE"
+msgstr "Show Title"
+
+msgid "SHOW_TITLE_DESC"
+msgstr "Shows title on the page."
+
+msgid "SHOW_FEATURED_IMAGE"
+msgstr "Show Featured Image"
+
+msgid "SHOW_FEATURED_IMAGE_DESC"
+msgstr "Should the posts Featured Image be displayed in the full content view."
+
+msgid "SHOW_COMMENTS"
+msgstr "Show Comments"
+
+msgid "SHOW_COMMENTS_DESC"
+msgstr "Displays comments and comments form in the full content view."
+
+msgid "HTML_TAGS"
+msgstr "HTML Tags Note"
+
+msgid "HTML_TAGS_DESC"
+msgstr "Displays the footer with available HTML tags under the comments form."
+
+msgid "SHOW_TAGS"
+msgstr "Show Tags"
+
+msgid "SHOW_TAGS_DESC"
+msgstr "Displays posts tags below the content."
+
+msgid "SHOW_FOOTER_NOTE"
+msgstr "Show Footer Note"
+
+msgid "SHOW_FOOTER_NOTE_DESC"
+msgstr "Displays posts footer below the content."
+
+msgid "POST_VIEW"
+msgstr "Post View"
+
+msgid "CATEGORY_VIEW"
+msgstr "Category View"
+
+msgid "POST_COUNT"
+msgstr "Post Count"
+
+msgid "POST_COUNT_DESC"
+msgstr "Number of posts to display on page."
+
+msgid "ARCHIVE_VIEW"
+msgstr "Archive View"
+
+msgid "TAG_VIEW"
+msgstr "Tag View"
+
+msgid "SEARCH_VIEW"
+msgstr "Search View"
+
+# STYLE TAB #
+msgid "SPECTRAL"
+msgstr "Spectral"
+
+msgid "RT_BACK"
+msgstr "Back"
+
+msgid "CUSTOMBG"
+msgstr "Custom"
+
+msgid "OVERLAY"
+msgstr "Overlay"
+
+msgid "OVERLAY_DESC"
+msgstr "Select an available overlay option"
+
+msgid "BACKGROUNDTOP_COLOR"
+msgstr "Background Top"
+
+msgid "BACKGROUNDMIDDLE_COLOR"
+msgstr "Background Middle"
+
+msgid "BACKGROUNDBOTTOM_COLOR"
+msgstr "Background Bottom"
+
+msgid "BACKGROUND_COLOR"
+msgstr "Background Color"
+
+msgid "BACKGROUND_COLOR_DESC"
+msgstr "Set the background color"
+
+msgid "BACKGROUND_IMAGE"
+msgstr "Background Image"
+
+msgid "BACKGROUND_IMAGE_DESC"
+msgstr ""
+"Select an available background image option. Choose custom to use your own "
+"background image."
+
+msgid "BACKGROUND_POSITION"
+msgstr "Background Position"
+
+msgid "BACKGROUND_POSITION_DESC"
+msgstr ""
+"Set the starting position of a background image. The first value is the "
+"horizontal position and the second value is the vertical. The top left "
+"corner is 0% 0%. The right bottom corner is 100% 100%. If you only specify "
+"one value, the other value will be 50%. Default value is: 50% 50%"
+
+msgid "FIXED_HEADER"
+msgstr "Fixed Header"
+
+msgid "FIXED_HEADER_DESC"
+msgstr ""
+"Enable this option to have the header position fixed at the top of the page"
+
+msgid "HEADER_STYLE"
+msgstr "Header Style"
+
+msgid "HEADER_STYLE_DESC"
+msgstr "Select an available style option for the header area of the template"
+
+msgid "HEADER_BG_IMAGE"
+msgstr "Header Background Image"
+
+msgid "HEADER_BG_IMAGE_DESC"
+msgstr "Choose your own background image for the header area."
+
+msgid "MAINBODY_STYLE"
+msgstr "MainBody Options"
+
+msgid "MAINBODY_STYLE_DESC"
+msgstr "Select an available style option for the main area of the template"
+
+msgid "ACCENT_COLOR"
+msgstr "Accent Color"
+
+msgid "ACCENT_COLOR_DESC"
+msgstr "Set the template accent color"
+
+msgid "ACCENT2_COLOR"
+msgstr "Accent 2 Color"
+
+msgid "ACCENT2_COLOR_DESC"
+msgstr "Set the template accent 2 color"
+
+msgid "BODY_STYLE"
+msgstr "Body Style"
+
+msgid "BODY_STYLE_DESC"
+msgstr "Select an available style option for the body area of the template"
+
+msgid "BODY_TYPE"
+msgstr "Body Type"
+
+msgid "BODY_TYPE_DESC"
+msgstr ""
+"Select an available background type option for the background area of the "
+"template."
+
+msgid "FULL_BG"
+msgstr "Full Background"
+
+msgid "SEPARATED_BG"
+msgstr "Separated Background"
+
+msgid "MAINBODY_OVERLAP"
+msgstr "MainBody Overlap"
+
+msgid "MAINBODY_OVERLAP_DESC"
+msgstr ""
+"Enable this to make the footer overlapped by the mainbody. Only best if you "
+"don't place any widget below the mainbody area, like shown in the demo "
+"frontpage."
+
+msgid "FOOTER_STYLE"
+msgstr "Footer Style"
+
+msgid "FOOTER_STYLE_DESC"
+msgstr "Select an available style option for the footer area of the template"
+
+msgid "FOOTER_BG_IMAGE"
+msgstr "Footer Background Image"
+
+msgid "FOOTER_BG_IMAGE_DESC"
+msgstr "Choose your own background image for the footer area."
+
+msgid "MENU_NUMBERING"
+msgstr "Menu Numbering"
+
+msgid "MENU_NUMBERING_DESC"
+msgstr "Enabled or disable the menu numbering"
+
+msgid "PAGINATION_SHOW_COUNT"
+msgstr "Show Count"
+
+msgid "PAGINATION_SHOW_COUNT_DESC"
+msgstr "Displays the number of all available pages"
+
+# GIZMOS TAB #
+msgid "CHART_ENABLE"
+msgstr "Chart"
+
+msgid "CHART_ENABLE_DESC"
+msgstr "Enable or disable the chart script to draw the charts"
+
+msgid "COMINGSOON_ENABLE"
+msgstr "Coming Soon Page"
+
+msgid "COMINGSOON_ENABLE_DESC"
+msgstr "Enable or disable the coming soon mode"
+
+msgid "MONTH"
+msgstr "Month"
+
+msgid "JANUARY"
+msgstr "January"
+
+msgid "FEBRUARY"
+msgstr "February"
+
+msgid "MARCH"
+msgstr "March"
+
+msgid "APRIL"
+msgstr "April"
+
+msgid "MAY"
+msgstr "May"
+
+msgid "JUNE"
+msgstr "June"
+
+msgid "JULY"
+msgstr "July"
+
+msgid "AUGUST"
+msgstr "August"
+
+msgid "SEPTEMBER"
+msgstr "September"
+
+msgid "OCTOBER"
+msgstr "October"
+
+msgid "NOVEMBER"
+msgstr "November"
+
+msgid "DECEMBER"
+msgstr "December"
+
+msgid "YEAR"
+msgstr "Year"
+
+msgid "EMAIL_SUBSCRIPTION"
+msgstr "Email Subscription"
+
+msgid "EMAIL_SUBSCRIPTION_DESC"
+msgstr ""
+"Enable or disable the Feedburner Email Subscriptions form on Offline and "
+"Coming Soon pages."
+
+msgid "FEEDBURNER_URI"
+msgstr "Feedburner URI"
+
+msgid "FEEDBURNER_URI_DESC"
+msgstr "Please put your Feedburner Email Subscriptions URI here"
+
+# LAYOUTS TAB #
+msgid "NAVIGATION_POS"
+msgstr "Navigation Positions"
+
+msgid "EXPANDEDTOP_POS"
+msgstr "ExpandedTop Positions"
+
+msgid "EXPANDEDBOTTOM_POS"
+msgstr "ExpandedBottom Positions"
+
+# ADVANCED TAB #
+msgid "RT_TYPOGRAPHY"
+msgstr "RT Typography"
+
+msgid "RT_TYPOGRAPHY_DESC"
+msgstr ""
+"This setting allows you to enable/disable the built-in custom RocketTheme "
+"extended typography. If you do not intend to use any extended RocketTheme "
+"typography styles on your site, disabling this option can increase "
+"performance by reducing the amount of CSS and images that load."
+
+msgid "RT_TYPOGRAPHY_STYLE"
+msgstr "Typography Styling"
+
+msgid "IE7SPLASH"
+msgstr "IE7 Redirect"
+
+msgid "IE7SPLASH_DESC"
+msgstr ""
+"Enable or disable a redirect to a custom splash page for IE7 visitors "
+"indicating the browser is unsupported on this site."
+
+msgid "DEMO_STYLING"
+msgstr "Demo Styling"
+
+msgid "DEMO_STYLING_DESC"
+msgstr "Enable or disable the built-in demo styling."
+
+# PAGE TEMPLATES TAB #
+msgid "CONTACT_FORM"
+msgstr "Contact Form"
+
+msgid "CONTACT_FORM_HEADER"
+msgstr "Form Header"
+
+msgid "CONTACT_FORM_HEADER_DESC"
+msgstr "This message will appear right above the contact form."
+
+msgid "CONTACT_EMAIL"
+msgstr "Contact Email"
+
+msgid "CONTACT_EMAIL_DESC"
+msgstr ""
+"Email address for mails to be sent on. If empty admin email address will be "
+"used."
+
+msgid "RECAPTCHA"
+msgstr "reCaptcha"
+
+msgid "RECAPTCHA_DESC"
+msgstr ""
+"If enabled, user will have to solve a captcha before sending a message."
+
+msgid "PUBLIC_KEY"
+msgstr "Public Key"
+
+msgid "PRIVATE_KEY"
+msgstr "Private Key"
+
+# ------------------- FRONT END ------------------- #
+#: 404.php:55
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:58
+msgid "You may not be able to visit this page because of:"
+msgstr ""
+
+#: 404.php:60
+msgid "an <strong>out-of-date bookmark/favourite</strong>"
+msgstr ""
+
+#: 404.php:61
+msgid ""
+"a search engine that has an <strong>out-of-date listing for this site</"
+"strong>"
+msgstr ""
+
+#: 404.php:62
+msgid "a <strong>mistyped address</strong>"
+msgstr ""
+
+#: 404.php:63
+msgid "you have <strong>no access</strong> to this page"
+msgstr ""
+
+#: 404.php:64
+msgid "The requested resource was not found."
+msgstr ""
+
+#: 404.php:65
+msgid "An error has occurred while processing your request."
+msgstr ""
+
+#: 404.php:67
+msgid "Home"
+msgstr ""
+
+#: comingsoon.php:53
+msgid "Day"
+msgstr ""
+
+#: comingsoon.php:53
+msgid "Days"
+msgstr ""
+
+#: comingsoon.php:54
+msgid "Hour"
+msgstr ""
+
+#: comingsoon.php:54
+msgid "Hours"
+msgstr ""
+
+#: comingsoon.php:55
+msgid "Minute"
+msgstr ""
+
+#: comingsoon.php:55
+msgid "Minutes"
+msgstr ""
+
+#: comingsoon.php:56
+msgid "Second"
+msgstr ""
+
+#: comingsoon.php:56
+msgid "Seconds"
+msgstr ""
+
+#: comingsoon.php:72
+msgid "Our Website is Coming Soon"
+msgstr ""
+
+#: comingsoon.php:78
+msgid ""
+"Spectral supports a simple coming soon or offline style page with a time "
+"counter. It has been specifically styled to match the theme. This feature "
+"can be enabled in Admin Dashboard &rarr; Spectral Theme &rarr; Gizmos &rarr; "
+"Coming Soon Page. You can customize this page by editing the comingsoon.php "
+"file inside the theme folder. Please visit <a href=\"http://www.rockettheme."
+"com/\">Spectral tutorials</a> for more information."
+msgstr ""
+
+#: comingsoon.php:83 maintenance.php:70
+msgid "Email Address"
+msgstr ""
+
+#: comingsoon.php:86 maintenance.php:73
+msgid "Subscribe"
+msgstr ""
+
+#: comingsoon.php:91 maintenance.php:77
+msgid "Authorized Login"
+msgstr ""
+
+#: comingsoon.php:94
+msgid ""
+"This gizmo hides your WordPress site behind the Coming Soon page with its "
+"Countdown timer. You can still access the frontend of the site by logging in "
+"as an administrator below. You can customize this message in the Spectral "
+"theme language file."
+msgstr ""
+
+#: comingsoon.php:99 maintenance.php:83 widgets/loginform.php:50
+msgid "User Name"
+msgstr ""
+
+#: comingsoon.php:100 maintenance.php:84 widgets/loginform.php:53
+msgid "Password"
+msgstr ""
+
+#: comingsoon.php:102 maintenance.php:86 widgets/loginform.php:59
+msgid "Log in"
+msgstr ""
+
+#: comingsoon.php:107 widgets/loginform.php:85
+msgid "Log out"
+msgstr ""
+
+#: functions.php:34
+msgid ""
+"The active theme requires the Gantry Framework Plugin to be installed and "
+"active"
+msgstr ""
+
+#: functions.php:88
+msgid "Next"
+msgstr ""
+
+#: functions.php:89
+msgid "Previous"
+msgstr ""
+
+#: functions.php:109
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: gizmos/helper.php:105
+msgid "Back"
+msgstr ""
+
+#: html/404.php:12
+msgid "404 Page Not Found"
+msgstr ""
+
+#: html/archive.php:48
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: html/archive.php:50
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: html/archive.php:50
+msgid "F Y"
+msgstr ""
+
+#: html/archive.php:52
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: html/archive.php:52
+msgid "Y"
+msgstr ""
+
+#: html/archive.php:54
+msgid "Archives"
+msgstr ""
+
+#: html/archive.php:86 html/author.php:123 html/category.php:76
+#: html/tag.php:76
+msgid "Sorry, but there aren't any posts matching your query."
+msgstr ""
+
+#: html/author.php:56
+msgid "Author Archives: %s"
+msgstr ""
+
+#: html/author.php:80
+msgid "About %s"
+msgstr ""
+
+#: html/category.php:46
+msgid "Category Archives: %s"
+msgstr ""
+
+#: html/content/content-blog.php:136 html/content/content-blog.php:142
+#: html/content/content-contactpage.php:85
+#: html/content/content-contactpage.php:91 html/content/content-page.php:84
+#: html/content/content-page.php:90 html/content/content-single.php:136
+#: html/content/content-single.php:142 html/content/content.php:138
+#: html/content/content.php:144
+msgid "0 Comments"
+msgstr ""
+
+#: html/content/content-blog.php:136 html/content/content-blog.php:142
+#: html/content/content-contactpage.php:85
+#: html/content/content-contactpage.php:91 html/content/content-page.php:84
+#: html/content/content-page.php:90 html/content/content-single.php:136
+#: html/content/content-single.php:142 html/content/content.php:138
+#: html/content/content.php:144
+msgid "1 Comment"
+msgstr ""
+
+#: html/content/content-blog.php:136 html/content/content-blog.php:142
+#: html/content/content-contactpage.php:85
+#: html/content/content-contactpage.php:91 html/content/content-page.php:84
+#: html/content/content-page.php:90 html/content/content-single.php:136
+#: html/content/content-single.php:142 html/content/content.php:138
+#: html/content/content.php:144
+msgid "% Comments"
+msgstr ""
+
+#: html/content/content-contactpage.php:125 html/content/content-page.php:126
+#: html/content/content-single.php:178 html/layouts/comment_standard.php:91
+msgid "Edit"
+msgstr ""
+
+#: html/content/content-contactpage.php:134
+msgid "Your email was sent successfully. Thank you!"
+msgstr ""
+
+#: html/content/content-contactpage.php:138
+msgid "Back to the homepage"
+msgstr ""
+
+#: html/content/content-contactpage.php:146
+msgid "Sorry, an error occured. Please try again."
+msgstr ""
+
+#: html/content/content-contactpage.php:157
+#: html/layouts/commentstempl_standard.php:164
+msgid "Name"
+msgstr ""
+
+#: html/content/content-contactpage.php:169
+#: html/layouts/commentstempl_standard.php:174
+msgid "Email"
+msgstr ""
+
+#: html/content/content-contactpage.php:181
+msgid "Subject"
+msgstr ""
+
+#: html/content/content-contactpage.php:193
+msgid "Message"
+msgstr ""
+
+#: html/content/content-contactpage.php:224
+msgid "Send copy to yourself"
+msgstr ""
+
+#: html/content/content-contactpage.php:226
+msgid "Send Email"
+msgstr ""
+
+#: html/content/content-page.php:124 html/content/content-single.php:176
+msgid "Pages:"
+msgstr ""
+
+#: html/content/content-single.php:207
+msgid "This entry was posted"
+msgstr ""
+
+#: html/content/content-single.php:212
+msgid "on"
+msgstr ""
+
+#: html/content/content-single.php:212
+msgid "at"
+msgstr ""
+
+#: html/content/content-single.php:213
+msgid "and is filed under"
+msgstr ""
+
+#: html/content/content-single.php:214
+msgid "You can follow any responses to this entry through the"
+msgstr ""
+
+#: html/content/content-single.php:214
+msgid "feed"
+msgstr ""
+
+#: html/content/content-single.php:218
+msgid "You can"
+msgstr ""
+
+#: html/content/content-single.php:218
+msgid "leave a response"
+msgstr ""
+
+#: html/content/content-single.php:218
+msgid "or"
+msgstr ""
+
+#: html/content/content-single.php:218 html/content/content-single.php:222
+msgid "trackback"
+msgstr ""
+
+#: html/content/content-single.php:218 html/content/content-single.php:222
+msgid "from your own site."
+msgstr ""
+
+#: html/content/content-single.php:222
+msgid "Responses are currently closed, but you can"
+msgstr ""
+
+#: html/content/content-single.php:226
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr ""
+
+#: html/content/content-single.php:230
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: html/content/content-single.php:232
+msgid "Edit this entry"
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:10
+msgid "Gantry Dropdown"
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:13
+msgid "Gantry SplitMenu"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:32
+msgid "Subtext"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:39
+msgid "Custom Image"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:41
+#: html/gantrymenu/themes/itemfields.php:66
+msgid "- None Selected -"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:64
+msgid "Custom Icon"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:78
+msgid "Number of Columns in Submenu"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:90
+msgid "Item Distribution"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:92
+msgid "Evenly"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:94
+msgid "In Order"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:96
+msgid "Manually"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:102
+msgid "Manual Item Distribution"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:109
+msgid "Group Child Items"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:111
+msgid "No"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:112
+msgid "Yes"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:119
+msgid "Drop-Down Width (px)"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:126
+msgid "Column Widths (px)"
+msgstr ""
+
+#: html/layouts/body_contactform.php:62
+msgid "Please enter your name."
+msgstr ""
+
+#: html/layouts/body_contactform.php:70
+msgid "Please enter your email address."
+msgstr ""
+
+#: html/layouts/body_contactform.php:74
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: html/layouts/body_contactform.php:82
+msgid "Please enter subject of your message."
+msgstr ""
+
+#: html/layouts/body_contactform.php:90
+msgid "Please enter a message."
+msgstr ""
+
+#: html/layouts/body_contactform.php:110
+msgid "The entered reCaptcha is incorrect. Please try again."
+msgstr ""
+
+#: html/layouts/body_contactform.php:120 html/layouts/body_contactform.php:121
+msgid "From:"
+msgstr ""
+
+#: html/layouts/body_contactform.php:120
+msgid "Email:"
+msgstr ""
+
+#: html/layouts/body_contactform.php:180 html/page.php:39
+msgid "Sorry, no pages matched your criteria."
+msgstr ""
+
+#: html/layouts/comment_standard.php:59
+msgid "Author"
+msgstr ""
+
+#: html/layouts/comment_standard.php:69
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: html/layouts/comment_standard.php:83
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:41
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:66
+msgid "Reply"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:75
+msgid "Older Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:78
+msgid "Newer Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:97
+msgid "Comments are closed."
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:115
+msgid "Leave a Reply"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:115
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:121
+msgid "Cancel Reply"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:146
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" class=\"btn btn-"
+"mini btn-logout\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:155
+msgid "Your email address will not be published."
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:155
+msgid "Required fields are marked *"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:184
+msgid "Website"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:197
+msgid "Comment"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:209
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\" class="
+"\"initialism\">HTML</abbr> tags and attributes: <code>%1$s</code>"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:217
+msgid "Post Comment"
+msgstr ""
+
+#: html/search.php:46
+msgid "Search Results for: %s"
+msgstr ""
+
+#: html/search.php:76
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: html/single.php:39
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: html/tag.php:46
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: maintenance.php:32
+msgid "Offline Page"
+msgstr ""
+
+#: maintenance.php:56
+msgid "Our Website is Temporarily Offline"
+msgstr ""
+
+#: maintenance.php:64
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec eu libero "
+"sit amet quam egestas semper. Rerum, minus, totam iusto eligendi quas "
+"tenetur natus illum at dolor nam officia facilis aliquid eveniet vero nihil "
+"laudantium ab numquam obcaecati."
+msgstr ""
+
+#: maintenance.php:68
+msgid "Get Our Updates"
+msgstr ""
+
+#: maintenance.php:80
+msgid ""
+"This option hides your WordPress site behind the Offline page while you work "
+"on it. You can still access the frontend of the site by logging in as an "
+"administrator below. You can customize this message in the Spectral theme "
+"language file."
+msgstr ""
+
+#: searchform.php:16
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:17
+msgid "Go"
+msgstr ""
+
+#: unsupported.php:23 unsupported.php:34
+msgid "Unsupported Browser"
+msgstr ""
+
+#: unsupported.php:35
+msgid ""
+"We have detected that you are using Internet Explorer 7, a browser version "
+"that is not supported by this website. Internet Explorer 7 was released in "
+"October of 2006, and the latest version of IE7 was released in October of "
+"2007. It is no longer supported by Microsoft."
+msgstr ""
+
+#: unsupported.php:36
+msgid ""
+"Continuing to run IE7 leaves you open to any and all security "
+"vulnerabilities discovered since that date. In March of 2011, Microsoft "
+"released version 9 of Internet Explorer that, in addition to providing "
+"greater security, is faster and more standards compliant than versions 6, 7, "
+"and 8 that came before it."
+msgstr ""
+
+#: unsupported.php:37
+msgid ""
+"We suggest installing the <a href=\"http://www.microsoft.com/windows/"
+"internet-explorer/default.aspx\">latest version of Internet Explorer</a>, or "
+"the latest version of these other popular browsers: <a href=\"http://www."
+"mozilla.com/en-US/firefox/firefox.html\">Firefox</a>, <a href=\"http://www."
+"google.com/chrome\">Google Chrome</a>, <a href=\"http://www.apple.com/safari/"
+"download/\">Safari</a>, <a href=\"http://www.opera.com/\">Opera</a>"
+msgstr ""
+
+#: widgets/loginform.php:56
+msgid "Remember Me"
+msgstr ""
+
+#: widgets/loginform.php:63
+msgid "Forgot your password?"
+msgstr ""
+
+#: widgets/loginform.php:67
+msgid "Register"
+msgstr ""
+
+#: widgets/recentcomments.php:96
+msgid "By %1$s"
+msgstr ""
