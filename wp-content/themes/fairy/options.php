@@ -107,7 +107,7 @@ function optionsframework_options() {
 	$options[] = array(
 		'name' => __('基本设置', 'options_framework_theme'),
 		'type' => 'heading');
-
+/**
 	$options[] = array(
 		'name' => __('窄文本框', 'options_framework_theme'),
 		'desc' => __('窄文本框输入字段。', 'options_framework_theme'),
@@ -115,19 +115,19 @@ function optionsframework_options() {
 		'std' => '默认',
 		'class' => 'mini',
 		'type' => 'text');
-
+**/
 	$options[] = array(
-		'name' => __('文本框', 'options_framework_theme'),
-		'desc' => __('文本框输入字段。', 'options_framework_theme'),
+		'name' => __('站点标题', 'options_framework_theme'),
+		'desc' => __('', 'options_framework_theme'),
 		'id' => 'example_text',
 		'std' => '默认值',
 		'type' => 'text');
 
 	$options[] = array(
-		'name' => __('文本域', 'options_framework_theme'),
-		'desc' => __('文本域说明', 'options_framework_theme'),
+		'name' => __('站点副标题', 'options_framework_theme'),
+		'desc' => __('副标题', 'options_framework_theme'),
 		'id' => 'example_textarea',
-		'std' => '默认文本',
+		'std' => '',
 		'type' => 'textarea');
 
 	$options[] = array(
