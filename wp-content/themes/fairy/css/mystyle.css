@@ -1139,7 +1139,18 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* ------------------------------------------------------------------------------- */
 /*  10.  Blog
 /* ------------------------------------------------------------------------------- */
-   
+    .return_top {
+	background: url(../images/return_top.png) no-repeat 0px 100%;
+        width:58px;
+        height:58px;	
+    }
+    .return_top:hover {
+        background: url(../images/return_top.png) no-repeat -60px 100%;
+        width:58px;
+        height:58px;
+     }
+
+    
     .post {
         background: url(../images/sep_d.png) repeat-x 0 100%;
         margin: 0 0 60px;

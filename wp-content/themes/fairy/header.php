@@ -16,6 +16,19 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<script>
+var _hmt = _hmt || [];
+(function() {
+<script>
+var _hmt = _hmt || [];
+(function() {
+	  var hm = document.createElement("script");
+	    hm.src = "//hm.baidu.com/hm.js?07e14688b7b3add2c00e91df811b7df8";
+	    var s = document.getElementsByTagName("script")[0]; 
+	      s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 </head>
 
 
