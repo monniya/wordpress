@@ -19,7 +19,7 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<div class="return_top" id="full" style="position: fixed; right: 5px; bottom: 5px; text-align: center; cursor: pointer;">
+<div class="" id="full" style="position: fixed; right: 5px; bottom: 5px; text-align: center; cursor: pointer;">
 </div>
 
 <?php wp_footer(); ?>

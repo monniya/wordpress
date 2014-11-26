@@ -31,5 +31,16 @@ if (window.attachEvent) {
 } else { 
 	window.addEventListener("load", newtoponload, false) 
 }**/ 
-document.getElementById("full").onclick = function () { window.scrollTo(0, 0) };
+window.onscroll = function(){
+   var $window=$(window);
+   var shouldvisible=( $window.scrollTop() >= 100 )? true : false;
+  if (shouldvisible){
+	document.getElementById("full").className="return_top";
+  }else{
+	document.getElementById("full").className="";
+  }
+}
+document.getElementById("full").onclick = function () { 
+	window.scrollTo(0, 0) 
+};
 
