@@ -14,7 +14,16 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+<script src="<?php bloginfo('template_url'); ?>/js/jquery-1.7.2.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jQuery.BlackAndWhite.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.easing-1.3.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider-min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.isotope.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.jcarousel.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.touchSwipe.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/respond.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/selectnav.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
 <?php wp_head(); ?>
 <script>
 var _hmt = _hmt || [];
