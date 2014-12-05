@@ -12,57 +12,25 @@
             </div>
 
             <ul class="project-carousel">
+		<?php
+                	query_posts('cat=6&posts_per_page=6');
+		        while ( have_posts() ) : the_post(); ?>
+                  	  <li>
+                      		 <a href="<?php the_permalink(); ?>" class="project-item">
+                           	 <img src="<?php echo catch_that_image();  ?>" />
+                           	 <div class="overlay">
+                                	 <h5><?php get_the_title() ? the_title() : the_ID(); ?></h5>
+                           	 </div>
+                       		 </a>
+                   	 </li>
+                <?php endwhile; wp_reset_query(); ?>
+
                 <li>
                     <a href="./portfolio_details.html" class="project-item">
 		    <img src="<?php bloginfo('template_url'); ?>/images/content/project_4_05.jpg" alt="" />
                         <div class="overlay">
                             <h5>日出</h5>
                             <p>摄影</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="./portfolio_details.html" class="project-item">
-		    <img src="<?php bloginfo('template_url'); ?>/images/content/project_4_06.jpg" alt="" />
-                        <div class="overlay">
-                            <h5>泸沽湖</h5>
-                            <p>旅行</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="./portfolio_details.html" class="project-item">
-                        <img src="./images/content/project_4_07.jpg" alt="" />
-                        <div class="overlay">
-                            <h5>云南</h5>
-                            <p>毕业行</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="./portfolio_details.html" class="project-item">
-                        <img src="./images/content/project_4_08.jpg" alt="" />
-                        <div class="overlay">
-                            <h5>云南</h5>
-                            <p>毕业行</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="./portfolio_details.html" class="project-item">
-                        <img src="./images/content/project_4_09.jpg" alt="" />
-                        <div class="overlay">
-                            <h5>云南</h5>
-                            <p>毕业行</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="./portfolio_details.html" class="project-item">
-                        <img src="./images/content/project_4_10.jpg" alt="" />
-                        <div class="overlay">
-                            <h5>云南</h5>
-                            <p>毕业行</p>
                         </div>
                     </a>
                 </li>
