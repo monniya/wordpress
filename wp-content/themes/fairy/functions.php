@@ -145,3 +145,6 @@ if (!function_exists('optionsframework_init')){
 	    require_once dirname(__FILE__).'/inc/options-framework.php';
 }
 include_once('myfunctions.php');
+add_theme_support('post-thumbnails' );
+set_post_thumbnail_size(220,220,true);
+add_image_size('one',220,220);

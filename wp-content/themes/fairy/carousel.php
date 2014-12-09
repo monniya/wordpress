@@ -17,23 +17,15 @@
 		        while ( have_posts() ) : the_post(); ?>
                   	  <li>
                       		 <a href="<?php the_permalink(); ?>" class="project-item">
-                           	 <img src="<?php echo catch_that_image();  ?>" />
+				 <?php the_post_thumbnail(thumbnail); ?>
                            	 <div class="overlay">
                                 	 <h5><?php get_the_title() ? the_title() : the_ID(); ?></h5>
+                                         <p class="date"><?php echo get_the_date(); ?></p>
                            	 </div>
                        		 </a>
                    	 </li>
                 <?php endwhile; wp_reset_query(); ?>
 
-                <li>
-                    <a href="./portfolio_details.html" class="project-item">
-		    <img src="<?php bloginfo('template_url'); ?>/images/content/project_4_05.jpg" alt="" />
-                        <div class="overlay">
-                            <h5>日出</h5>
-                            <p>摄影</p>
-                        </div>
-                    </a>
-                </li>
             </ul>
         </div>
         <!-- /Project Carousel -->
