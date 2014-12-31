@@ -17,7 +17,7 @@
 		        while ( have_posts() ) : the_post(); ?>
                   	  <li>
                       		 <a href="<?php the_permalink(); ?>" class="project-item">
-				 <?php the_post_thumbnail(thumbnail); ?>
+				 <?php the_post_thumbnail(); ?>
                            	 <div class="overlay">
                                 	 <h5><?php get_the_title() ? the_title() : the_ID(); ?></h5>
                                          <p class="date"><?php echo get_the_date(); ?></p>

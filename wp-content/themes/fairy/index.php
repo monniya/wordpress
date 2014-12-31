@@ -16,5 +16,4 @@ get_header(); ?>
 <?php get_template_part('slider') ?>
 <?php get_template_part('carousel') ?>
 <?php get_template_part('miniblog') ?>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

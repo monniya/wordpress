@@ -9,7 +9,10 @@
  * Contributing author: Tyler Smith (@mbmufffin)
  */
 
- 
+ /*monniya  */
+#main-slider.slider {
+	margin-right: 20px;
+}
 /* Browser Resets */
 .flex-container a:active,
 .flexslider a:active,

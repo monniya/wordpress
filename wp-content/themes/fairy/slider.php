@@ -1,5 +1,5 @@
 <!--slider -->
-        <div id="main-slider" class="flexslider">
+        <div id="main-slider" class="flexslider slider">
             <ul class="slides">
               <li>
                 <img src="http://ft.dlinkddns.com/wordpress/wp-content/themes/fairy/images/content/slide_01.jpg" alt="" />

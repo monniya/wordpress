@@ -64,4 +64,4 @@ var _hmt = _hmt || [];
    	 </div>
 
 <!--	<div id="content" class="site-content"> -->
-<div id="content" class="container clearfix">
+<div id="content" class="container clearfix essay">

@@ -272,6 +272,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     #content {
         margin-top:30px;
     }
+    #content.essay {
+        margin-right: 0px;
+    }
     #main {
         float: left;
         margin: 0 40px 0 0;
@@ -1391,6 +1394,7 @@ font-family: "microsoft yahei";
         margin-bottom: 15px;
         padding-bottom: 14px;
         text-transform: capitalize;
+	height: 68px;/*monniya*/
     }
     .post-block .post-entry h2:hover {
         color: #f0bfb8;
@@ -1667,6 +1671,22 @@ font-family: "microsoft yahei";
 /* ------------------------------------------------------------------------------- */
 /*  13.  Widgets
 /* ------------------------------------------------------------------------------- */
+    .widget-area .widget-title {
+        background: #D73300;
+        color: #fff;
+	font-size: 16px;
+	width: 98px;
+	height: 32px;
+	line-height: 31px;
+	overflow: hidden;
+	text-align: center;
+    }
+    .widget-area .widget > ul {
+        border-top: 3px solid rgb(215, 51, 0);
+        margin-top: -13px;
+	margin-left: 5px;
+	width: 243px;
+    }
 
     .widget {
         margin: 0 0 50px;

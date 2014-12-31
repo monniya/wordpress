@@ -147,4 +147,6 @@ if (!function_exists('optionsframework_init')){
 include_once('myfunctions.php');
 add_theme_support('post-thumbnails' );
 set_post_thumbnail_size(220,220,true);
-add_image_size('one',220,220);
+//add_image_size('miniblog',440,440);
+add_image_size('essay',300,169,true);
+
