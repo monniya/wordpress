@@ -14,10 +14,10 @@ get_header(); ?>
 		                <?php endif; ?>
 			        </header><!-- .entry-header -->
 
-	<p class="note"><?php echo mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0,240,"...");    ?>
-</div>
-			<?php endwhile; wp_reset_query(); ?>
+			<p class="note"><?php echo mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0,240,"...");    ?>
+			</div>	
+		<?php endwhile; wp_reset_query(); ?>
 						
-		</div>
+</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
