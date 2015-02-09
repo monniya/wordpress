@@ -2208,7 +2208,7 @@ function comment_form( $args = array(), $post_id = null ) {
 		'comment_notes_after'  => '<p class="form-allowed-tags" id="form-allowed-tags">' . sprintf( __( 'You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s' ), ' <code>' . allowed_tags() . '</code>' ) . '</p>',
 		'id_form'              => 'commentform',
 		'id_submit'            => 'submit',
-		'class_submit'         => 'submit red',
+		'class_submit'         => 'submit ',
 		'name_submit'          => 'submit',
 		'title_reply'          => __( 'Leave a Reply' ),
 		'title_reply_to'       => __( 'Leave a Reply to %s' ),
@@ -2328,7 +2328,7 @@ function comment_form( $args = array(), $post_id = null ) {
 						 */
 						echo apply_filters( 'comment_form_field_comment', $args['comment_field'] );
 						?>
-					<!--	<?php echo $args['comment_notes_after']; ?> -->
+						<?php echo $args['comment_notes_after']; ?> 
 						<p class="form-submit">
 							<input name="<?php echo esc_attr( $args['name_submit'] ); ?>" type="submit" id="<?php echo esc_attr( $args['id_submit'] ); ?>" class="<?php echo esc_attr( $args['class_submit'] ); ?>" value="<?php echo esc_attr( $args['label_submit'] ); ?>" />
 							<?php comment_id_fields( $post_id ); ?>

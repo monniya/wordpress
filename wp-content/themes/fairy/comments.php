@@ -25,7 +25,7 @@ if ( post_password_required() ) {
 	<?php if ( have_comments() ) : ?>
 		<h4 class="comments-title">
 			<?php
-				printf( _nx( '%1$s  评论', '%1$s  评论', get_comments_number(), 'comments title', 'fairy' ),
+				printf( _nx( '评论 (%1$s)', '评论 (%1$s)', get_comments_number(), 'comments title', 'fairy' ),
 					number_format_i18n( get_comments_number() ), '<span>'  . '</span>' );
 			?>
 		</h4>
@@ -64,6 +64,6 @@ if ( post_password_required() ) {
 		<p class="no-comments"><?php _e( 'Comments are closed.', 'fairy' ); ?></p>
 	<?php endif; ?>
 
-	<?php comment_form(); ?>
+	<?php comment_form(array('class_submit' => 'submit red' , 'comment_notes_after'  => '')); ?>
 
 </div><!-- #comments -->

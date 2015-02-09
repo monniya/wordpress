@@ -1147,6 +1147,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* ------------------------------------------------------------------------------- */
 /*  10.  Blog
 /* ------------------------------------------------------------------------------- */
+    .comment-body b.fn {
+	margin-left: 10px;
+    }  
     .return_top {
 	background: url(../images/return_top.png) no-repeat 0px 100%;
         width:58px;

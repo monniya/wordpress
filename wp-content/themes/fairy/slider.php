@@ -1,6 +1,11 @@
 <!--slider -->
         <div id="main-slider" class="flexslider slider">
             <ul class="slides">
+		<li>
+                <img src="http://ft.dlinkddns.com/wordpress/wp-content/themes/fairy/images/content/slide_04.jpg" alt="" />
+                <div class="flex-caption">
+                <h3>琳琅</h3> <p>蓝色小房，你我相伴。</p> <a href="<?php get_bloginfo('template_directory');?>?p=322 "><input type="submit" value="更多" class="red" /></a>                </div>
+              </li> 
               <li>
                 <img src="http://ft.dlinkddns.com/wordpress/wp-content/themes/fairy/images/content/slide_01.jpg" alt="" />
                 <div class="flex-caption">
