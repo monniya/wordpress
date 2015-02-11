@@ -40,11 +40,14 @@ if ( post_password_required() ) {
 
 		<ol class="comment-list">
 			<?php
-				wp_list_comments( array(
+	/** use callback function by monniya
+	 *			 wp_list_comments( array(
 					'style'      => 'ol',
 					'short_ping' => true,
 				) );
-			?>
+				**/
+				wp_list_comments('type=comment&callback=mytheme_comment');
+?>
 		</ol><!-- .comment-list -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>

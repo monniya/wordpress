@@ -1375,7 +1375,19 @@ font-family: "microsoft yahei";
 
     a.comment-reply-link {
 	margin-left: 0px;
+	font-size: 12px;
+	color: #959595;
+    }
+    .comments-date a {
+        color: #959595;
 	font-size: 13px;
+	margin-left: 10px;
+    }
+    .comments-text {
+        width:680px;
+    }
+    .children .comments-text {
+        width: 620px;
     }
     /*  Comments Form  --------------------------------*/
 
