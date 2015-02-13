@@ -90,11 +90,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         color: #959595;
         display: block;
        
-        font-weight: 700;
+        font-weight: 500;
         margin-bottom: 20px;
         padding: 7px 9px;
         text-transform: uppercase;
         width: 240px;
+	font-family: "microsoft yahei";
     }
     textarea {
         resize: none;
@@ -107,9 +108,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         background-size: 100% 200%;
         color: #fff;
         cursor: pointer;    
-        font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-        font-weight: 600;
+      /**  font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+        font-weight: 600;**/
         padding: 7px 25px 8px;
+	font-family: "microsoft yahei";
         -webkit-transition: background .2s ease-out;
            -moz-transition: background .2s ease-out;
             -ie-transition: background .2s ease-out;
@@ -1066,14 +1068,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     /*  Blockquote  --------------------------------*/
     
     blockquote {
-        background: url(../images/quote.png) no-repeat 30px 28px;
-        border: 1px solid #e6e6e6;
+/*        background: url(../images/quote.png) no-repeat 30px 28px;
+  */      border: 1px solid #e6e6e6;
         -webkit-border-radius: 3px;
            -moz-border-radius: 3px;
                 border-radius: 3px;
-        font-style: italic;
-        padding: 28px 20px 24px 50px;
+        padding: 28px 20px 24px 20px;
         position: relative;
+	font-size:13px;
     }
     blockquote .person {
         color: #333;
@@ -1388,6 +1390,10 @@ font-family: "microsoft yahei";
     }
     .children .comments-text {
         width: 620px;
+    }
+    .comment-list {
+        border-bottom: 1px dotted #e5e5e5;
+        margin: 36px 0 70px;
     }
     /*  Comments Form  --------------------------------*/
 

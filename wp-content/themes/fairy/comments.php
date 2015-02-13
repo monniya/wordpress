@@ -40,14 +40,14 @@ if ( post_password_required() ) {
 
 		<ol class="comment-list">
 			<?php
-	/** use callback function by monniya
-	 *			 wp_list_comments( array(
+				/** use callback function by monniya
+	 			 wp_list_comments( array(
 					'style'      => 'ol',
 					'short_ping' => true,
 				) );
 				**/
 				wp_list_comments('type=comment&callback=mytheme_comment');
-?>
+			?>
 		</ol><!-- .comment-list -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
@@ -67,6 +67,23 @@ if ( post_password_required() ) {
 		<p class="no-comments"><?php _e( 'Comments are closed.', 'fairy' ); ?></p>
 	<?php endif; ?>
 
-	<?php comment_form(array('class_submit' => 'submit red' , 'comment_notes_after'  => '')); ?>
+	<?php 
+		$fields =  array(
+		    'author' => '<p class="comment-form-author">'.
+		    	'<input id="author" name="author" type="text" value="昵称" onfocus="if (value ==\'昵称\'){value =\'\'}" onblur="if (value ==\'\'){value=\'昵称\'}" size="30"' . $aria_req . ' /></p>',
+		    'email'  => '<p class="comment-form-email">'.
+		    	'<input id="email" name="email" type="text" value="邮箱" onfocus="if (value ==\'邮箱\'){value =\'\'}" onblur="if (value ==\'\'){value=\'邮箱\'}" size="30"' . $aria_req . ' /></p>',
+							);
+	$comments_args = array(
+		'fields' =>  $fields,
+		'comment_notes_before' => "",
+		 'class_submit' => 'submit red',
+		 'comment_notes_after'  => '',
+		 'title_reply' =>'',
+		 'comment_field'=> '<p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" rows="8" placeholder="说点什么" onfocus="if (value ==\'说点什么\'){value =\'\'}" onblur="if (value ==\'\'){value=\'说点什么\'}" aria-describedby="form-allowed-tags" aria-required="true"></textarea></p>'
+   	 );
+	comment_form($comments_args);
+
+?>
 
 </div><!-- #comments -->
