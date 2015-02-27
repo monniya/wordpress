@@ -198,7 +198,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         /*font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 		 font-size: 12px;*/
 		font-family: "microsoft yahei";
-       font-size: 15px;
+       font-size: 17px;
         font-weight: 700;
         margin: 0 0 0 40px;
         padding: 53px 0 30px;
@@ -1880,8 +1880,7 @@ font-family: "microsoft yahei";
 /* ------------------------------------------------------------------------------- */
 
     #footer {
-        background: #333;
-        margin: 100px 0 0;
+        margin: 100px 0 100px 0;
         padding: 60px 0 0;
     }
     #footer .logo {
@@ -1911,11 +1910,12 @@ font-family: "microsoft yahei";
     /*  Copyright & Social Links  --------------------------------*/
 
     #footer .info {
-        background: url(../images/sep_f.png) repeat-x 0 0;
+        background: url(../images/sep_d.png) repeat-x 0 0;
         line-height: 21px;
         margin-top: 34px;
         padding-bottom: 14px;
         padding-top: 17px;
+	font-size:13px;
     }
     .copyright li {
         display: block;

@@ -80,6 +80,11 @@ html[xmlns] .slides {display: block;}
 .flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
 .flex-caption p {margin: 0 0 15px;}
 
+.flex-caption h5 {
+	color: #fff;
+	font-size: 13px;
+	margin: 0 0 15px;
+}
 
 
 
