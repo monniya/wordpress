@@ -13,21 +13,25 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'fairy' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h1 class="page-title"><?php printf( __( '搜索： %s', 'fairy' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+			<?php 
+				query_posts('s='. get_search_query() . '&posts_per_page=20');
+				while ( have_posts() ) : the_post(); ?>
 
-				<?php
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'content', 'search' );
-				?>
+				 <div class="post clearfix ">
+                                <header class="post-header">
+                                 <?php the_title( sprintf( '<h1 class="post-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+                              	 <?php if ( 'post' == get_post_type() ) : ?>
+                                        <div class="post-meta">
+                                        <?php fairy_posted_on(); ?>
+                                        </div><!-- .entry-meta -->
+                                <?php endif; ?>
+                                </header><!-- .entry-header -->
 
+                        	<p class="note"><?php echo mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0,240,"...");    ?>
+                       		 </div>
 			<?php endwhile; ?>
 
 			<?php fairy_paging_nav(); ?>
