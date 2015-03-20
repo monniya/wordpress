@@ -12,7 +12,7 @@
 
 	<footer id="footer" class="site-footer" role="contentinfo">
 		<div class="info container clearfix">
-			<p>2014-2104 Monniya & Edwardnooth. All rights reserved.</p>
+			<p>&copy;2009-2109 Monniya & Edwardnooth. All rights reserved.</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

@@ -13,6 +13,8 @@
  * @package WordPress
  */
 
+define('WP_HOME','http://www.monniya.com/');
+define('WP_SITEURL','http://www.monniya.com/');
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
 define('DB_NAME', 'wordpress');

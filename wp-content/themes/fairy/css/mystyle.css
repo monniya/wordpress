@@ -169,7 +169,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* ------------------------------------------------------------------------------- */
 
     h1.site-title{
-	    margin-top: 18px;
+	    margin-top: 25px;
+	    font-size: 33px;
+    }
+    a.tale{
+	    color:#D73300;
     }
 
     #header {
@@ -208,6 +212,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     #navigation a:hover, #navigation .hover > a, #navigation .current > a {
         background: url(../images/menu_active_item.png) repeat-x 0 100%;
         color: #d73300;
+    }
+    h4.site-description {
+    font-size: 13px;
+    color: #929090;
     }
     /*  Dropdown  --------------------------------*/
 
@@ -288,12 +296,24 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     }
     #sidebar {
         float: right;
-        width: 220px;
+        width: 232px;
     }
     .search {
         margin-bottom: 50px !important;
         margin-top: 10px;
-        width: 202px !important;
+    /**    width: 202px !important;  */
+    }
+    .search-header {
+	    text-align: right;
+	    margin-left: 723px;
+	    margin-top: -51px;
+    }
+    input.search-field {
+	    background: url(../images/bg_dots_grey.png);
+	    border-radius: 0;
+	    color: #959595;
+	    padding: 6px 9px;
+	    width: 195px;
     }
 
     /*  Page Title  --------------------------------*/
@@ -301,7 +321,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     .page-title, .page-title-inner, .page-title-alt {
         color: #c2c2c2;
         display: inline-block;
-        font-size: 48px;
+        font-size: 30px;
         font-weight: 100;
         letter-spacing: 2px;
         line-height: 1.2;
@@ -1710,7 +1730,7 @@ font-family: "microsoft yahei";
         border-top: 3px solid rgb(215, 51, 0);
         margin-top: -13px;
 	margin-left: 5px;
-	width: 243px;
+	width: 210px;
     }
 
     .widget {
@@ -1898,7 +1918,10 @@ font-family: "microsoft yahei";
     #footer a:hover {
         color: #d73300;
     }
-
+    .info p {
+	 text-align:center;
+	 color: #B0AEAE;
+    }
 
     /*  Contact Details  --------------------------------*/
     
@@ -2751,6 +2774,9 @@ font-family: "microsoft yahei";
     /*  Blog
     /* ------------------------------------------------------ */
 
+    .post-meta {
+	    font-size: 13px;
+    }
         .post-meta .date, .post-meta .tags, .post-meta .comments {
             padding-bottom: 0;
         }

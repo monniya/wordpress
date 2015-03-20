@@ -29,7 +29,7 @@
 var _hmt = _hmt || [];
 (function() {
 	  var hm = document.createElement("script");
-	    hm.src = "//hm.baidu.com/hm.js?07e14688b7b3add2c00e91df811b7df8";
+	  hm.src = "//hm.baidu.com/hm.js?9cdad07c755fa23f6aced510c6760e87";
 	    var s = document.getElementsByTagName("script")[0]; 
 	      s.parentNode.insertBefore(hm, s);
 })();
@@ -43,18 +43,27 @@ var _hmt = _hmt || [];
 <div id="body-wrapper">
 	<!-- Header  -->
     <div id="header" class="container clearfix">
+<!--	<div id="site-logo">
+	<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php get_bloginfo('template_directory');?>/wordpress/wp-content/themes/fairy/images/logo.png"></a>
+	</div>  
+-->
 	<?php if (isset($option_setting['logo']['url'])) : ?>
 		<?php if( $option_setting['logo']['url'] != "" ) : ?>
 			<div id="site-logo">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url($option_setting['logo']['url']) ?>"></a>
 			</div>
 		<?php else : ?>	
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-hover="<?php bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+<!--			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-hover="<?php bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+-->
 			<h4 class="site-description"><?php bloginfo( 'description' ); ?></h4>
 		<?php endif; ?>	
 	<?php else : ?>	
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-hover="<?php bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h4 class="site-description"><?php bloginfo( 'description' ); ?></h4>
+		<h1 class="site-title">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-hover="FAIRY TALE" rel="home">FAIRY </a>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="tale" data-hover="FAIRY TALE" rel="home">TALE</a>
+</h1>
+	<h4 class="site-description"><?php bloginfo( 'description' ); ?></h4>
+	<div class="search-header"><?php get_search_form(); ?> </div>
 	<?php endif; ?>	
 
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'fairy' ); ?></a>
