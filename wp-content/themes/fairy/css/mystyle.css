@@ -213,6 +213,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         background: url(../images/menu_active_item.png) repeat-x 0 100%;
         color: #d73300;
     }
+    #navigation a:hover, #navigation .hover > a, #navigation .current-menu-item > a {
+        background: url(../images/menu_active_item.png) repeat-x 0 100%;
+        color: #d73300;
+     }  
+
     h4.site-description {
     font-size: 13px;
     color: #929090;
