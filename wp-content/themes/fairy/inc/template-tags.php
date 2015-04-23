@@ -89,24 +89,24 @@ function fairy_posted_on() {
 	);
 
 	echo '<span class="byline"> ' . $byline . '</span><span class="posted-on">' . $posted_on . '</span>';
-//category and tags by monniya
+	//add view counts by monniya
+	//setPostViews(get_the_ID());
+	//category and tags by monniya
 	if ( 'post' == get_post_type() ) {
-                 /* translators: used between list items, there is a space after the comma */
                  $categories_list = get_the_category_list( __( ', ', 'fairy' ) );
                  if ( $categories_list && fairy_categorized_blog() ) {
                          printf( '<span class="tags cat-links">' . __( ' %1$s', 'fairy' ) . '', $categories_list );
                  }
 
-                 /* translators: used between list items, there is a space after the comma */
                  $tags_list = get_the_tag_list( '', __( ' · ', 'fairy' ) );
                  if ( $tags_list ) {
                          printf(   __( ' · %1$s', 'fairy' ) . '</span>', $tags_list );
                  }
 	}
-
+	echo '</span>';
+	echo '<span class="view">' . getPostViews(get_the_ID()).'</span>';
 }
 endif;
-
 if ( ! function_exists( 'fairy_entry_footer' ) ) :
 /**
  * Prints HTML with meta information for the categories, tags and comments.

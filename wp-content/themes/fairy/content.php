@@ -10,7 +10,7 @@
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="post-meta">
-			<?php fairy_posted_on(); ?>
+			<?php setPostViews(get_the_ID()); fairy_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->

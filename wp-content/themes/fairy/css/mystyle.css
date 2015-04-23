@@ -1219,7 +1219,7 @@ font-family: "microsoft yahei";
     .post-meta .author a:hover {
         color: #C7060E;
     }
-    .post-meta .date, .post-meta .tags, .post-meta .comments {
+    .post-meta .date, .post-meta .tags, .post-meta .comments , .post-meta .view{
         color: #959595;
         display: inline-block;
         margin-right: 15px;
@@ -1238,6 +1238,11 @@ font-family: "microsoft yahei";
     .post-meta .tags {
         padding-left: 17px;
         background: url(../images/blog_icon_tags.png) no-repeat 0 16px;
+    }
+     .post-meta .view {
+        padding-left: 28px;
+	margin-left: -7px;
+        background: url(../images/blog_icon_view.png) no-repeat 0 16px;
     }
     .post-meta .comments {
         padding-left: 17px;

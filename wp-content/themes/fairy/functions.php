@@ -149,6 +149,33 @@ add_theme_support('post-thumbnails' );
 set_post_thumbnail_size(400,400,true);
 //add_image_size('miniblog',440,440);
 add_image_size('essay',400,225,true);
+/**
+ * add view counts 统计点击数by monniya
+ */
+function getPostViews($postID){
+	$count_key = 'views_count';
+	$count = get_post_meta($postID, $count_key, true);
+	if($count==''){
+//		delete_post_meta($postID, $count_key);
+		$count = 0;
+		add_post_meta($postID, $count_key, $count);
+	}
+	return $count;
+}
+function setPostViews($postID) {
+	$count_key = 'views_count';
+	$count = get_post_meta($postID, $count_key, true);
+	if($count==''){
+		$count = 0;
+//		delete_post_meta($postID, $count_key);
+		add_post_meta($postID, $count_key, $count);
+	}else{
+		$count++;
+		update_post_meta($postID, $count_key, $count);
+	}
+}
+
+
 
 /**
  * add wp_list_comments callback by monniya

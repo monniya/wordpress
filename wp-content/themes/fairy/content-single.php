@@ -9,7 +9,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="post-meta">
-			<?php fairy_posted_on(); ?>
+			<?php setPostViews(get_the_ID()); fairy_posted_on(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
