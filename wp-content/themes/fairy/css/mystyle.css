@@ -562,16 +562,19 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=50)";
         filter: alpha(opacity=50);
         opacity: .5;
-        -webkit-backface-visibility: hidden;
     }
     .logo-list .bw-wrapper:hover {
         -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
         filter: alpha(opacity=100);
         opacity: 1;
     }
-
-
-
+    /*    by monniya  */
+    .bw-wrapper-mylogo{
+	    opacity: .7;
+    }
+    .bw-wrapper-mylogo:hover{
+            opacity: 1;
+    }
 
 
     /*  View More  --------------------------------*/
@@ -1905,12 +1908,36 @@ font-family: "microsoft yahei";
 
 
 /* ------------------------------------------------------------------------------- */
-/*  14.  Footer
+/*  14.  Footer by monniya
 /* ------------------------------------------------------------------------------- */
 
+   .footer-style {
+        float: left;
+        margin-right: 20px !important;
+        position: relative;
+
+   }
+   #footer .footer-style.logo a {
+        font-size: 22px;
+        color: #fff;
+   }
+   .footer-style.last {
+        margin-right: 0 !important;
+	float: right;
+   } 
+
+   #footer .one-fourth.logo a {
+        font-size: 22px;
+        color: #fff;
+     }
+    #footer .logo a.tale {
+        color: #F05C5C;
+     }
     #footer {
         margin: 100px 0 100px 0;
         padding: 60px 0 0;
+	background: #333;
+	color: #848484;
     }
     #footer .logo {
         display: block;
@@ -1942,7 +1969,7 @@ font-family: "microsoft yahei";
     /*  Copyright & Social Links  --------------------------------*/
 
     #footer .info {
-        background: url(../images/sep_d.png) repeat-x 0 0;
+        background: url(../images/sep_f.png) repeat-x 0 0;
         line-height: 21px;
         margin-top: 34px;
         padding-bottom: 14px;

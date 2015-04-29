@@ -26,3 +26,14 @@
            </ul>
         </div>
         <!-- /Mini Blog -->
+<!-- Logo List -->
+        <div class="logo-list">
+            <ul>
+	    <li><a href="./"><div class="bw-wrapper-mylogo"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/fairy/images/content/logo_list_01.png" alt="" /></div></a></li>
+	    <li><a href="./?cat=4"><div class="bw-wrapper-mylogo"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/fairy/images/content/logo_list_02.png" alt="" /></div></a></li>
+	    <li><a href="./?cat=6"><div class="bw-wrapper-mylogo"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/fairy/images/content/logo_list_03.png" alt="" /></div></a></li>
+		<li><a href="./?cat=3"><div class="bw-wrapper-mylogo"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/fairy/images/content/logo_list_04.png" alt="" /></div></a></li>
+		<li><a href="./"><div class="bw-wrapper-mylogo"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/fairy/images/content/logo_list_05.png" alt="" /></div></a></li>
+            </ul>
+        </div>
+        <!-- /Logo List -->
