@@ -174,6 +174,16 @@ function setPostViews($postID) {
 		update_post_meta($postID, $count_key, $count);
 	}
 }
+/**
+ * 管理后台将最新修改的文章排在前面
+ */
+function set_post_order_in_admin( $wp_query ) {
+	  if ( is_admin() ) {
+           // 如果要将最新修改的文章排在后面，可将DESC改成ASC
+               $wp_query->set( 'order', 'DESC' );
+           }
+  }
+ add_filter('pre_get_posts', 'set_post_order_in_admin' );
 
 
 

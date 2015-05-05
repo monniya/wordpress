@@ -11,8 +11,11 @@ get_header(); ?>
 
 <div id="main">
         <?php
-$cat= single_cat_title('', false);
-query_posts('cat=' . get_cat_ID($cat) . '&posts_per_page=20');
+		$cat= single_cat_title('', false);
+		$day= $_GET['m'];
+		$year = substr($day,0,4);
+		$month = substr($day,4,6);
+		query_posts('cat=' . get_cat_ID($cat) . '&year= '.$year.'&monthnum='.$month.'&posts_per_page=20');
                 while ( have_posts() ) : the_post(); ?>
                         <div class="post clearfix ">
                                 <header class="post-header">

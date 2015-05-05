@@ -2,6 +2,7 @@
 get_header(); ?>
 <div id="main">
 	<?php
+		$current_year = date('Y');
 		query_posts('cat=4&posts_per_page=20');
 		while ( have_posts() ) : the_post(); ?>
 			<div class="post clearfix ">
