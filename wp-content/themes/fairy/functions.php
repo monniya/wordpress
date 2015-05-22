@@ -70,6 +70,24 @@ function fairy_setup() {
 endif; // fairy_setup
 add_action( 'after_setup_theme', 'fairy_setup' );
 
+/** add template for other style ,such as image,video... by monniya
+ */
+add_action('template_include', 'load_single_template');
+function load_single_template($template) {
+    $new_template = '';
+    if( is_single() ) {
+        global $post;
+        if ( has_post_format( 'image' )) {      
+		$new_template = locate_template(array('single-image.php' ));
+        }   
+   }
+    return ('' != $new_template) ? $new_template : $template;
+}
+
+
+
+
+
 /**
  * Register widget area.
  *
@@ -95,7 +113,7 @@ function fairy_scripts() {
 	wp_enqueue_style( 'fairy-style', get_stylesheet_uri() );
  	//load JS
 	wp_enqueue_script( 'fairy-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
-	wp_enqueue_script( 'fairy-ga', get_template_directory_uri() . '/js/ga.js', array(), '20141107', true );
+//	wp_enqueue_script( 'fairy-ga', get_template_directory_uri() . '/js/ga.js', array(), '20141107', true );
 	wp_enqueue_script( 'fairy-navigation',get_template_directory_uri() . '/js/navigation.js', array(), '20141107', true );
 	wp_enqueue_script( 'fairy-skip-link-focus-fix',get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20141107', true );
 	wp_enqueue_script( 'fairy-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
@@ -231,3 +249,51 @@ function mytheme_comment($comment, $args, $depth) {
 	<?php endif; ?>
 <?php
 }
+/**
+ * catch images in content by monniya
+ */
+
+function catch_images(){
+	global $post, $posts;
+	$soImages = '~<img [^\>]* \/>~' ;
+//	$soImages='/<img.+src=[\'"]([^\'"]+)[\'"].*>/i';
+	preg_match_all ( $soImages , $post->post_content , $thePics ) ;
+	$allPics = count ( $thePics[0] ) ;
+/*	echo $allPics;
+	if ( $allPics > 0 ) {
+		for($i=0;$i<$allPics;$i++){
+			echo $thePics[0][$i];
+		}
+}
+ */
+	return $thePics[0];
+}
+
+function catch_words(){
+	global $post, $posts;
+//	$soWords = '~<p [^\>]* \/>~' ;
+	$soWords = '~<h4>(.*?)</h4>~ ';
+	preg_match_all ( $soWords , $post->post_content , $theWords ) ; 
+	$allWords = count ( $theWords[0] ) ; 
+/*	echo $allWords;
+	if ( $allWords > 0 ) {
+		for($i=0;$i<$allWords;$i++){
+			echo $theWords[0][$i];
+		}
+	}
+ */
+	return $theWords[0];
+}
+
+function appthemes_add_quicktags() {
+    if (wp_script_is('quicktags')){
+?>
+    <script type="text/javascript">
+    QTags.addButton( 'eg_paragraph', 'h4', '<h4>', '</h4>', 'p', 'Paragraph tag', 1 );
+    QTags.addButton( 'eg_hr', 'hr', '<hr />', '', 'h', 'Horizontal rule line', 201 );
+    QTags.addButton( 'eg_pre', 'pre', '<pre lang="php">', '</pre>', 'q', 'Preformatted text tag', 121 );
+    </script>
+<?php
+        }
+}
+add_action( 'admin_print_footer_scripts', 'appthemes_add_quicktags' );

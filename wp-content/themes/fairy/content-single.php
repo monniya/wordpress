@@ -1,6 +1,7 @@
 <?php
 /**
  * @package fairy
+ * the default content for monniya style
  */
 ?>
 

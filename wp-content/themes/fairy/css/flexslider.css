@@ -13,6 +13,38 @@
 #main-slider.slider {
 	margin-right: 20px;
 }
+figcaption h4{
+	position: relative;
+	color: #F5F2F2;
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.2);
+	line-height: 0.4;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	left: 20px;
+	padding: 0.615rem;
+	font-size: 13px;
+	-webkit-border-radius: 3px;
+	margin-top: -14px;
+	top: -60px;
+}
+#carousel ul.slides {
+  overflow: hidden;
+    height: 110px;
+}
+#slider ul.slides {
+  overflow: hidden;
+    height: 540px;
+ }
+#carousel li:hover {
+  opacity: 1;
+}
+ #carousel li.flex-active-slide {
+    opacity: 1;
+ }
+ #carousel li {
+      opacity: 0.5;
+        cursor: pointer;
+}
 /* Browser Resets */
 .flex-container a:active,
 .flexslider a:active,
