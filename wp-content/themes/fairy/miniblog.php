@@ -14,7 +14,7 @@
             </div>
             
             <ul class="blog-carousel">
-		<?php query_posts('posts_per_page=9');	?>
+		<?php query_posts('posts_per_page=6&cat=-67');	?>
 		<?php while ( have_posts() ) : the_post(); ?>
 		<li>
 			<a href="<?php the_permalink(); ?>"><h4><?php get_the_title() ? the_title() : the_ID(); ?></h4>

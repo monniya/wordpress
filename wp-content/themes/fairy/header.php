@@ -43,10 +43,7 @@ var _hmt = _hmt || [];
 <div id="body-wrapper">
 	<!-- Header  -->
     <div id="header" class="container clearfix">
-<!--	<div id="site-logo">
-	<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php get_bloginfo('template_directory');?>/wordpress/wp-content/themes/fairy/images/logo.png"></a>
-	</div>  
--->
+
 	<?php if (isset($option_setting['logo']['url'])) : ?>
 		<?php if( $option_setting['logo']['url'] != "" ) : ?>
 			<div id="site-logo">
@@ -63,7 +60,10 @@ var _hmt = _hmt || [];
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="tale" data-hover="FAIRY TALE" rel="home">TALE</a>
 </h1>
 	<h4 class="site-description"><?php bloginfo( 'description' ); ?></h4>
-	<div class="search-header"><?php get_search_form(); ?> </div>
+<!--	<div class="search-header"><?php get_search_form(); ?> </div>-->
+ <div id="site-logo">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/fairy/images/logo.png"></a>
+        </div> 
 	<?php endif; ?>	
 
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'fairy' ); ?></a>

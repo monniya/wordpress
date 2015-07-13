@@ -121,7 +121,7 @@ function fairy_scripts() {
 	wp_enqueue_script( 'fairy-customizer',get_template_directory_uri() . '/js/customizer.js', array(), '20141107', true );
 	//load flexslider,googlefont,style CSS
 	wp_enqueue_style( 'flexslider' ,get_template_directory_uri()."/css/flexslider.css");
-	wp_enqueue_style('googlefont',get_template_directory_uri()."/css/googlefont.css");
+	//wp_enqueue_style('googlefont',get_template_directory_uri()."/css/googlefont.css");
 	wp_enqueue_style('mystyle',get_template_directory_uri()."/css/mystyle.css");
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -167,6 +167,7 @@ add_theme_support('post-thumbnails' );
 set_post_thumbnail_size(400,400,true);
 //add_image_size('miniblog',440,440);
 add_image_size('essay',400,225,true);
+add_image_size('index',578,325,true);
 /**
  * add view counts 统计点击数by monniya
  */
@@ -283,6 +284,12 @@ function catch_words(){
 	}
  */
 	return $theWords[0];
+}
+/* 获取img中的src地址*/
+function catch_src($img){
+	$temp='<img.*?src="(.*?)">';
+	preg_match($temp,$img,$matches);
+	return $matches[1];
 }
 
 function appthemes_add_quicktags() {

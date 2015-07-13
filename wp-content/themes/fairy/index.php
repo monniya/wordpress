@@ -12,8 +12,8 @@
  */
 
 get_header(); ?>
-
-<?php get_template_part('slider') ?>
-<?php get_template_part('carousel') ?>
-<?php get_template_part('miniblog') ?>
+<?php get_template_part('timemac') ?>
+<?php// get_template_part('slider') ?>
+<?php //get_template_part('carousel') ?>
+<?php// get_template_part('miniblog') ?>
 <?php get_footer(); ?>

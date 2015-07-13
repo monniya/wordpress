@@ -424,12 +424,14 @@ a:active {
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
+/*
 .main-navigation {
 	clear: both;
 	display: block;
 	float: left;
 	width: 100%;
 	margin-top: -5px;
+	margin-left:114px;
 }
 
 .main-navigation ul {
@@ -491,7 +493,7 @@ a:active {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a {
 }
-
+*/
 /* Small menu */
 .menu-toggle {
 	display: none;
