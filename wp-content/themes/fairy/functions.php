@@ -304,3 +304,14 @@ function appthemes_add_quicktags() {
         }
 }
 add_action( 'admin_print_footer_scripts', 'appthemes_add_quicktags' );
+
+function scp_comment_post( $incoming_comment ) {
+	$pattern = '/[一-龥]/u'; 
+
+	if(!preg_match($pattern, $incoming_comment['comment_content'])) {
+		wp_die( "You should type some Chinese word (like \"你好\") in your comment to pass the spam-check, thanks for your patience! 您的评论中必须包含汉字!" );
+	}
+	return( $incoming_comment );
+}
+add_filter('preprocess_comment', 'scp_comment_post');
+

@@ -29,9 +29,78 @@ img{
       height: auto;
       max-width: 100%;
   }
-@media only screen and (min-width: 960px){
-	#navigation{
-       }	       
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background-size: 100% 200%;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-weight: 600;
+	padding: 7px 25px 8px;
+	-webkit-transition: background .2s ease-out;
+	-moz-transition: background .2s ease-out;
+	-ie-transition: background .2s ease-out;
+	-o-transition: background .2s ease-out;
+	transition: background .2s ease-out;
+	border:0;
+}
+input[type="submit"]:hover {
+	background-size: 100% 100%;
+}
+.red {
+	background: #ec4c1a;
+	background: -webkit-linear-gradient(#ec4c1a, #a32700);
+	background: -moz-linear-gradient(#ec4c1a, #a32700);
+	background: -ms-linear-gradient(#ec4c1a, #a32700);
+	background: -o-linear-gradient(#ec4c1a, #a32700);
+	background: -webkit-gradient(#ec4c1a, #a32700);
+	background: linear-gradient(#ec4c1a, #a32700);
+}
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	color: buttontext;
+	padding: 2px 6px 3px;
+	border: 2px outset buttonface;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	background-color: buttonface;
+	box-sizing: border-box;
+	border: 0;
+}
+input[type="text"], textarea {
+	background: url(../images/bg_dots_grey.png);
+	border-radius: 0;
+	color: #959595;
+	display: block;
+	font-weight: 700;
+	margin-bottom: 20px;
+	padding: 7px 9px;
+	text-transform: uppercase;
+	width: 240px;
+	resize: none;
+	border:0;
+	}
+textarea#comment {
+	width: 440px;
+	height: 240px;
+}
+div#comments {
+	padding-top: 20px;
+}
+@media only screen and (max-width: 1110px){
+	div#sidebar {
+		display: none;
+	}
+	main#main {
+		width: 80%;
+	}
 }
 /* ------------------------------------------------------------------------------- 
  * 2.  Header
@@ -68,6 +137,18 @@ h4.site-description {
     height: 1px;
     width: 1px;
     overflow: hidden;
+  }
+  /*search */
+  input.search-field {
+	  background: url(../images/bg_dots_grey.png);
+	  color: #959595;
+	  padding: 6px 9px;
+	  width: 244px;
+	  border: 0;
+	  font-size: 100%;
+  }   
+  input.search-submit {
+	  display: none;
   }
 /*  Navigation  --------------------------------*/
 	
@@ -343,10 +424,14 @@ p.note {
 		width:100%;
 		height: 100%;
 	}
-	.box-point{
-		display:none;
+	.index-box{
+		display:block;
+		position:relative;
 	}
-	.box-point-right{
+	.index-box.right{
+		left:0 !important;
+	}
+	.box-point{
 		display:none;
 	}
 	.index-box{
@@ -354,12 +439,6 @@ p.note {
 		width:100%;
 		margin-top:6%;
 	}
-	.index-box:nth-child(2n-1) {
-		  float: none;
-	  }
-	.index-box:nth-child(2n) {
-		  float: none;
-	  }
 	  .box-content {
 		  width:80%;
 		  margin:0 auto;
@@ -483,6 +562,9 @@ p.note {
  .nav-next {
 	 float: right;
  }
+ /* ------------------------------------------------------------------------------- */
+ /*   Blog
+  *   ------------------------------------------------------------------------------- */
  /* ------------------------------------------------------------------------------- */
  /*  14.  Footer
   */* ------------------------------------------------------------------------------- */

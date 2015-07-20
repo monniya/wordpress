@@ -4,7 +4,7 @@
             <div class="index-carousel">
 		<?php  query_posts('posts_per_page=6&cat=-67');	?>
 		<?php  while ( have_posts() ) : the_post(); ?>
-		<?php if(in_category(3)){
+		<?php if(in_category(6)){
 			$style="moment-style";
 			$icon="moment-icon";
 		}
